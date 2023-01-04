@@ -1,3 +1,46 @@
+* { box-sizing: border-box;}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+.header a.logo{
+  font-size: 25px;
+  font-weight: bold;
+}
+.header a:hover{
+  background-color: aqua;
+  color: black;
+}
+.header nav> ul {
+  display: flex;
+  float: right;
+}
+.header nav li{
+  list-style: none;
+}
+.header nav li:hover {
+  display: block;
+  background-color: lightgray;
+}
+.header nav li a{
+  text-decoration: none;
+  color: black;
+}
 .table1{
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
