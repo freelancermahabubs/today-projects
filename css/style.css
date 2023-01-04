@@ -36,6 +36,7 @@ body {
 .header nav li:hover {
   display: block;
   background-color: lightgray;
+  cursor: pointer;
 }
 .header nav li a{
   text-decoration: none;
@@ -61,4 +62,25 @@ body {
   border: 1px solid brown;
   border-collapse: collapse;
   text-align: left;
+}
+.btn-group button {
+  background-color: #04AA6D;
+  border: 1px solid green;
+  padding: 10px 24px;
+  cursor: pointer;
+  float: left;
+  
+}
+/* Clear floats (clearfix hack) */
+.btn-group::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.btn-group button:not(:last-child) {
+  border-right: none;
+}
+/* Add a background color on hover */
+.btn-group button:hover{
+  background-color: #3e8e41;
 }
