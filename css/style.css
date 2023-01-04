@@ -1,3 +1,13 @@
-body{
- background-image: url("../images/5-52405_clip-art-for-free-download-background-png-transparent.png ");
+.table1{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.table1 th, .table1 td{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.table1 tr:nth-child(even) {
+  background-color: #dddddd;
 }
