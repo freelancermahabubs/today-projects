@@ -11,3 +11,11 @@
 .table1 tr:nth-child(even) {
   background-color: #dddddd;
 }
+.table2{
+  width: 100%;
+}
+.table2 th, .table2 td{
+  border: 1px solid brown;
+  border-collapse: collapse;
+  text-align: left;
+}
